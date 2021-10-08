@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link type="text/css" rel="stylesheet" href="/stylesheet.css" />
+    <title>Form handling</title>
+  </head>
+  <body>
+    <form action="/cgi-bin/script.py" class="form">
+      <div class="fields-wrapper">
+        <div class="wrapper">
+          <input type="text" name="input1" placeholder="Enter a text" />
+          <input type="text" name="input2" placeholder="Enter a text" />
+        </div>
+        <div class="wrapper">
+          <h1>Which languages do you know?</h1>
+          <div>
+            <input type="checkbox" id="cb1" name="cb" value="English" />
+            <label for="cb1">English</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="cb2" name="cb" value="Russian" />
+            <label for="cb2">Russian</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="cb3" name="cb" value="Ukrainian" />
+            <label for="cb3">Ukrainian</label>
+          </div>
+        </div>
+
+        <div class="wrapper">
+          <h1>What's your English level?</h1>
+          <div>
+            <input type="radio" id="rb1" name="rb" value="A1 - A2" />
+            <label for="rb1">A1 - A2</label>
+          </div>
+
+          <div>
+            <input type="radio" id="rb2" name="rb" value="B1 - B2" />
+            <label for="rb2">B1 - B2</label>
+          </div>
+
+          <div>
+            <input type="radio" id="rb3" name="rb" value="C1 - C2" />
+            <label for="rb3">C1 - C2</label>
+          </div>
+        </div>
+        <div class="button-wrapper">
+          <button>Submit</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
