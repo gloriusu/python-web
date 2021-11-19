@@ -1,0 +1,20 @@
+{% from "_render_field.html" import render_field %}
+{% extends 'main.html' %}
+{% block content %}
+<div class="content-section">
+    <div class="media">
+        <img src="{{ image_file }}" align="middle" class="rounded-circle account-img" style="width: 150px"/>
+    </div>
+    <div class="media-body">
+        <h2 class="account-heading">{{ current_user.username }}</h2>
+        <p class="text-secondary"> {{ current_user.email }} </p>
+    </div>
+    <form method="POST" action="" class="form" enctype="multipart/form-data">
+        {{ form.csrf_token }}
+        {{ render_field(form.email, placeholder='Enter Email') }}
+        {{ render_field(form.username, placeholder='Enter Username') }}
+        {{ render_field(form.picture) }}
+        {{ render_field(form.submit, class='btn btn-primary', value='Update') }}
+    </form>
+</div>
+{% endblock %}
