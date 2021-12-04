@@ -30,6 +30,15 @@
                     <a class="nav-link" href="{{ url_for('auth.account') }}">Account</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('familiar.data_list') }}">Familiar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('familiar.add_familiar') }}">Add Familiar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('familiar.category_crud') }}">Category CRUD</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="{{ url_for('auth.logout') }}">Logout</a>
                 </li>
                 {% else %}

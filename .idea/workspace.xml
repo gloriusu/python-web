@@ -1,23 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:12-user-profile" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="77453a05-fdf2-4fcc-be34-28433b77e134" name="Default Changelist" comment="" />
+    <list default="true" id="77453a05-fdf2-4fcc-be34-28433b77e134" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/auth/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/auth/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/auth/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/auth/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/auth/templates/auth/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/auth/templates/auth/account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/auth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/auth/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/env.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site.db" beforeDir="false" afterPath="$PROJECT_DIR$/site.db" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="218Is8G9BpnjuqQt036RT3zWBBA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Oleg\Downloads\Labs\third\python_web\flask\lab12\app\familiar\templates\familiar" />
       <recent name="C:\Users\Oleg\Downloads\Labs\third\python_web\flask\lab12\app\auth\templates\auth" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -107,6 +155,9 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="715" y="338" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1637318631975">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -116,21 +167,25 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080/-1280.54.1280.1024@0.0.1920.1080" timestamp="1637316798328" />
-    <state width="1899" height="288" key="GridCell.Tab.0.bottom" timestamp="1637321574874">
+    <state width="1899" height="288" key="GridCell.Tab.0.bottom" timestamp="1638630979869">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1280.54.1280.1024@0.0.1920.1080" timestamp="1637321574874" />
-    <state width="1899" height="288" key="GridCell.Tab.0.center" timestamp="1637321574874">
+    <state width="1899" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1280.54.1280.1024@0.0.1920.1080" timestamp="1638630979869" />
+    <state width="1899" height="288" key="GridCell.Tab.0.center" timestamp="1638630979869">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="288" key="GridCell.Tab.0.center/0.0.1920.1080/-1280.54.1280.1024@0.0.1920.1080" timestamp="1637321574874" />
-    <state width="1899" height="288" key="GridCell.Tab.0.left" timestamp="1637321574874">
+    <state width="1899" height="288" key="GridCell.Tab.0.center/0.0.1920.1080/-1280.54.1280.1024@0.0.1920.1080" timestamp="1638630979869" />
+    <state width="1899" height="288" key="GridCell.Tab.0.left" timestamp="1638630979869">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="288" key="GridCell.Tab.0.left/0.0.1920.1080/-1280.54.1280.1024@0.0.1920.1080" timestamp="1637321574874" />
-    <state width="1899" height="288" key="GridCell.Tab.0.right" timestamp="1637321574874">
+    <state width="1899" height="288" key="GridCell.Tab.0.left/0.0.1920.1080/-1280.54.1280.1024@0.0.1920.1080" timestamp="1638630979869" />
+    <state width="1899" height="288" key="GridCell.Tab.0.right" timestamp="1638630979869">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="288" key="GridCell.Tab.0.right/0.0.1920.1080/-1280.54.1280.1024@0.0.1920.1080" timestamp="1637321574874" />
+    <state width="1899" height="288" key="GridCell.Tab.0.right/0.0.1920.1080/-1280.54.1280.1024@0.0.1920.1080" timestamp="1638630979869" />
+    <state x="714" y="177" key="RollbackChangesDialog" timestamp="1637342766437">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="714" y="177" key="RollbackChangesDialog/0.0.1920.1080/-1280.54.1280.1024@0.0.1920.1080" timestamp="1637342766437" />
   </component>
 </project>

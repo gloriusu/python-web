@@ -1,0 +1,21 @@
+{% from "_render_field.html" import render_field %}
+{% extends 'main.html' %}
+{% block content %}
+<div class="container">
+    {% for item in familiar %}
+    <div class="col-md-4 centered">
+        <div class="single-blog-item">
+            <div class="blog-content">
+                <h2>Last Name: <a href="{{ url_for('familiar.detail_familiar', id=item.id) }}">{{ item.last_name }}</a></h2>
+                <p>First Name: {{ item.first_name }}</p>
+                <p>Phone Number: {{ item.phone_number }}</p>
+                <p>Gender: {{ item.gender.value }}</p>
+                <p>Birth Date: {{ item.birth_date }}</p>
+                <p>hobby: {{ item.hobby }}</p>
+                <p>Familiarity level: {{ item.category.familiarity_level }}</p>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
