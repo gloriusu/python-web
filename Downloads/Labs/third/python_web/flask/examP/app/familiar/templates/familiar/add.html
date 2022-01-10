@@ -1,0 +1,21 @@
+{% from "_render_field.html" import render_field %}
+{% extends 'main.html' %}
+{% block content %}
+<form method="POST" enctype="multipart/form-data">
+    {{ familiar_form.csrf_token }}
+    <div class="centered">
+        <div class="form-post">
+            <div class="form-item">{{ render_field(familiar_form.last_name) }}</div>
+            <div class="form-item">{{ render_field(familiar_form.first_name) }}</div>
+            <div class="form-item">{{ render_field(familiar_form.phone_number) }}</div>
+            <div class="form-item">{{ render_field(familiar_form.gender) }}</div>
+            <div class="form-item">{{ render_field(familiar_form.birth_date) }}</div>
+            <div class="form-item">{{ render_field(familiar_form.category) }}</div>
+            <div class="form-item">{{ render_field(familiar_form.hobby) }}</div>
+            <button>Submit</button>
+        </div>
+    </div>
+
+</form>
+
+{% endblock %}
